@@ -9,7 +9,7 @@ for (const fish of allFish) {
     console.log(fish)
 }
 // Import the FishList function from the correct module
-import { FishList } from './FishList.js'
+import { FishList } from './fish/FishList.js'
 
 /*
     What is the CSS selector for the element where you
@@ -23,7 +23,7 @@ const parentHTMLElement = document.querySelector(".fishlist")
 
 parentHTMLElement.innerHTML = FishList()
 
-import {travelList} from './travelist.js'
+import {travelList} from './locations/travelist.js'
 
 
 const parentHTMLElement2 = document.querySelector(".placestraveled")

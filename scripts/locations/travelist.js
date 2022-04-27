@@ -1,4 +1,4 @@
-import { getFish } from "./database.js";
+import { getFish } from "../database.js";
 
 export const travelList = () => {
     const fishes = getFish()
